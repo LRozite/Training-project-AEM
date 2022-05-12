@@ -1,20 +1,25 @@
 .cmp-form-options {
     border: none;
     padding-left: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+    
 }
 .cmp-form-options__legend {}
 .cmp-form-options__field-label {}
 .cmp-form-options__field {
     width: 200px;
     height: 35px;
-    border: black;
+    border: none;
+    
 }
 .cmp-form-options__field--checkbox {}
 .cmp-form-options__field--radio {}
 .cmp-form-options__field-description {}
 .cmp-form-options__label {}
 .cmp-form-options__drop-down-field {
-    border: solid;
+    border: none;
+    
 }
 .cmp-form-options__multi-drop-down-field {}
 .cmp-form-options__help-message {}

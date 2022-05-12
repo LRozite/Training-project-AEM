@@ -1,7 +1,8 @@
 .cmp-form-text {
+    border: none;
     padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
 }
 .cmp-form-text__help-block {}
 .cmp-form-text__textarea {}
@@ -12,5 +13,6 @@
     color: rgb(19, 7, 30);
     outline: none;
     background: white;
+    border: none;
     
 }
