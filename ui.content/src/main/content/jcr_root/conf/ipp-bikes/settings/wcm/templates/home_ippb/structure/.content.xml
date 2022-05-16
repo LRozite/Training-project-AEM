@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2022-05-03T13:34:25.647+03:00"
+        cq:lastModified="{Date}2022-05-16T11:52:34.792+03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/ipp-bikes/settings/wcm/templates/home_ippb"
         jcr:primaryType="cq:PageContent"
@@ -41,6 +41,7 @@
                 </cq:responsive>
             </container_933290512>
             <navigation
+                cq:styleIds="[1652440800541]"
                 jcr:created="{Date}2022-03-30T16:27:18.172+03:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2022-03-30T16:29:08.018+03:00"
@@ -105,7 +106,7 @@
             <experiencefragment
                 jcr:created="{Date}2022-04-05T10:26:03.972+03:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-04-05T11:39:58.338+03:00"
+                jcr:lastModified="{Date}2022-05-16T11:22:33.584+03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="ipp-bikes/components/experiencefragment"
@@ -126,13 +127,6 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="ipp-bikes/components/container"
                 editable="{Boolean}true"/>
-            <breadcrumb
-                jcr:created="{Date}2022-03-18T12:46:01.134+02:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-03-18T12:46:01.134+02:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="ipp-bikes/components/breadcrumb"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

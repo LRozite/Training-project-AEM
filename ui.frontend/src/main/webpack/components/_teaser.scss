@@ -1,3 +1,4 @@
+//Made by LR. Since this component is not changed by teammates I left my changes in general as is//
 .cmp-teaser {
     position: relative;
     margin-bottom: 10px;
@@ -121,9 +122,7 @@
     }
 
     .cmp-teaser__image {
-        position: absolute;
-        width: 100%;
-        height: 100%;
+       display: none;
     }
 
     .cmp-image__image {
@@ -141,23 +140,43 @@
     .cmp-teaser__description {
         display: none;
     }
-    .cmp-teaser__action-link {
-        @extend
-            .cmp-button,
-            .cmp-button--solid;
-
-        text-decoration: none;
-    }
-
-    .cmp-teaser__action-link::after{
-        position: relative;
-    }
     .cmp-teaser__action-container {
+        background: none;
         position: relative;
         bottom: 0%;
         left: 40%;
-        background-color: transparent;
-    }
+        }
+        .cmp-teaser__action-link {
+            background: #ff6600;
+            border: none;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            position: relative;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+            transition: all 0.5s;
+            width: 200px;
+            display: inline-block;
+        }
+        .cmp-teaser__action-link:hover{
+        padding-right: 25px;
+        }
+        .cmp-teaser__action-link::after{
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.1s;
+        }
+    
+        .cmp-teaser__action-link:hover::after{
+        content: '\1F86A';
+        opacity: 1;
+        right: -5px;
+        transition: 0.5s;
+        }
 
 }
 .cmp-image--left {

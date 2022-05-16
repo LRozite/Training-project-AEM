@@ -1,3 +1,8 @@
+.cmp-navigation{}
+.cmp-navigation__group{}
+.cmp-navigation__item {}
+
+.cmp-navigation-lr{
 .cmp-navigation {
   padding: 10px 16px;
     list-style: none;
@@ -39,4 +44,5 @@
   padding: 2pt;
   color: white;
   content: "";
+}
 }

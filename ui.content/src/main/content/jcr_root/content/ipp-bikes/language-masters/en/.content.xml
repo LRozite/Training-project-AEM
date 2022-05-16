@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-05-12T11:30:03.817+03:00"
+        cq:lastModified="{Date}2022-05-16T11:46:20.630+03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/ipp-bikes/settings/wcm/templates/home_ippb"
         jcr:primaryType="cq:PageContent"
@@ -29,15 +29,22 @@
                     jcr:title="Adaptive Form Header"
                     sling:resourceType="fd/af/components/guideheader"/>
                 <button
-                    cq:styleIds="[1649323866636]"
+                    cq:styleIds="[1649324022702]"
                     jcr:created="{Date}2022-04-08T17:12:00.976+03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-08T17:12:16.287+03:00"
+                    jcr:lastModified="{Date}2022-05-13T14:32:58.165+03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Sign up"
                     sling:resourceType="ipp-bikes/components/button"
-                    linkTarget="_self"/>
+                    linkTarget="_self">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="11"/>
+                    </cq:responsive>
+                </button>
                 <container
                     jcr:created="{Date}2022-04-08T16:59:33.354+03:00"
                     jcr:createdBy="admin"
@@ -93,6 +100,7 @@
                     </actions>
                 </teaser>
                 <tabs
+                    cq:styleIds="[1652682579015]"
                     jcr:created="{Date}2022-05-11T17:50:54.577+03:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2022-05-11T17:52:33.387+03:00"
@@ -187,7 +195,7 @@
                             </items>
                         </options_226412125_co>
                         <slider
-                            jcr:lastModified="{Date}2022-05-12T11:30:03.791+03:00"
+                            jcr:lastModified="{Date}2022-05-12T13:54:25.418+03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Max price"
@@ -291,7 +299,7 @@
                             </items>
                         </options_226412125_co>
                         <slider
-                            jcr:lastModified="{Date}2022-05-12T11:16:31.808+03:00"
+                            jcr:lastModified="{Date}2022-05-16T08:43:04.213+03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Max monthly payment:"
@@ -331,8 +339,8 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="6"/>
+                            offset="1"
+                            width="5"/>
                     </cq:responsive>
                 </heroimage>
                 <heroimage_430088673
@@ -348,8 +356,8 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="6"/>
+                            offset="1"
+                            width="5"/>
                     </cq:responsive>
                 </heroimage_430088673>
             </container_250480922>
@@ -491,7 +499,7 @@
                 </title>
             </container>
             <container_933290512
-                jcr:lastModified="{Date}2022-04-05T11:29:27.883+03:00"
+                jcr:lastModified="{Date}2022-05-13T16:51:50.555+03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="ipp-bikes/components/container"
