@@ -1,11 +1,15 @@
+//Made by LR. Since this component is not changed by teammates I left my changes in general as is//
 .cmp-form-text {
-    border: none;
-    padding-left: 20px;
-    margin-top: 5px;
-    margin-left: 20px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
 }
 .cmp-form-text__help-block {}
-.cmp-form-text__textarea {}
+.cmp-form-text__textarea {
+    width: 200px;
+    height: 35px;
+    border: none;
+}
 .cmp-form-text__text {
     display: inline;
     width: 200px;

@@ -115,7 +115,7 @@
     }
 
 
-
+//style for teaser variation -shows just link button//
 .cmp-LinkButton {
     .cmp-teaser {
         margin: 35px 0;
@@ -179,6 +179,8 @@
         }
 
 }
+
+//Style for teaser with image on left LR//
 .cmp-image--left {
     .cmp-teaser{
         margin-bottom: 5em;
@@ -218,6 +220,8 @@
         bottom: 25%;
     }
 }
+
+//Style for teaser with image on right LR//
 .cmp-image--right {
     .cmp-teaser{
         margin-bottom: 5em;
@@ -257,6 +261,8 @@
         bottom: 25%;
     }
 }
+
+//Style for teaser card variation LR//
 .cmp-teaser--card {
     .cmp-teaser__image {
         position: relative;
@@ -339,6 +345,8 @@
         }
     
 }
+
+//Style for teaser with picture in background and image with ripped border LR//
 .cmp-teaser--ripped {
     .cmp-teaser {
         background-image: url('/content/dam/ipp-bikes/grey-background.jpg');

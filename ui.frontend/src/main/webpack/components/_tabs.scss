@@ -4,10 +4,12 @@
 .cmp-tabs__tabpanel{}
 .cmp-tabs__tabpanel--active {}
 
+//Tabs style made by LR//
 .cmp-tabs-lr{
     .cmp-tabs {
-    background-color: black, opacity 0.5;
-    }
+    background-color: rgba($color: #000000, $alpha: 0.6); 
+    
+} 
     .cmp-tabs__tablist {
     color: gray;
     }
@@ -30,7 +32,14 @@
 
     }
     .cmp-tabs__tabpanel {
-    background-color: black;
-    
+    background-color: transparent;
+    padding: 5px;
+
+    &::after {
+        content: "";
+        display: block;
+        padding-bottom: 50px;
+    }
+  
     }
 }

@@ -1,3 +1,4 @@
+//Custom range slider component made by LR//
 // Display the default slider value
 
 var slider = document.getElementById("slRange");
@@ -8,9 +9,6 @@ console.log (output);
 
 // Update the current slider value 
 slider.oninput = function() {
-  output.innerHTML = "$" +  this.value;
+  output.innerHTML = "$" +  this.value, {maximumFractionDigits:2};
 };
-
-
-
 

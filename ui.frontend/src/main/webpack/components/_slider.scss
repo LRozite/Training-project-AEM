@@ -1,3 +1,4 @@
+//Custom range slider component made by LR//
 .cmp-slider {
     display: inline-block;
     position: relative;
@@ -13,32 +14,42 @@
     top: 0px;
     
     }
-    .cmp-slider__input{
+    .cmp-slider__input {
             width: 70%;
             -webkit-appearance: none;
-            background: #F60;
-            border-radius: 4px;
-            height: 7px;
-            box-shadow: inset 0 0 3px rgba(51, 51, 51, 0.45);
-            -webkit-transition: 450ms;
-            transition: 450ms;
+            background: transparent;
             position: absolute;
             top: 80%;
             left: 0px;
+    }
+
+   .cmp-slider__input::-webkit-slider-runnable-track {
+            border-radius: 4px;
+            height: 7px;
+            background: #fa6600;
+            box-shadow: inset 0 0 3px rgba(51, 51, 51, 0.45);
         
     }
+   
+   
     
     .cmp-slider__input::-webkit-slider-thumb {
         -webkit-appearance: none;
         appearance: none;
+        margin-top: -16px;
         width: 40px;
         height: 40px;
         border: 1px solid #000;
         border-radius: 25px;
         background: white;
+        background-image: url('/content/dam/ipp-bikes/Arrows-back-forward.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 15px 10px;
         box-shadow: inset 0 0 1px #fff, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
         cursor: pointer; 
-    }
+        }
+
     
 
     .cmp-slider__input::-moz-range-thumb{
@@ -48,9 +59,10 @@
             border-radius: 25px;
             background: white;
             cursor: pointer;
+            
     
     }
-
+   
     .cmp-slider__output {
     display: inline-block;
     align-content: right;
