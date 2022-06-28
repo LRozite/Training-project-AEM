@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-06-17T13:21:31.237+03:00"
+        cq:lastModifiedBy="reference-adjustment-service"
+        cq:tags="[]"
+        cq:template="/conf/ipp-bikes/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Bike_Price_Search"
+        sling:resourceType="ipp-bikes/components/xfpage">
+        <root
+            cq:styleIds="[1655454621159]"
+            jcr:lastModified="{Date}2022-05-18T08:27:04.644+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ipp-bikes/components/container"
+            backgroundImageReference="/content/dam/ipp-bikes/harley.jpg"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2022-05-17T17:11:36.882+03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-17T17:14:12.413+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ipp-bikes/components/container"
+                layout="responsiveGrid">
+                <title_1131035521
+                    cq:styleIds="[1652773233549]"
+                    jcr:created="{Date}2022-05-17T17:33:44.680+03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-05-17T17:37:01.909+03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Harley-Davidson Originals Approved Used Bikes"
+                    sling:resourceType="ipp-bikes/components/title"
+                    type="h3">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </title_1131035521>
+                <title
+                    cq:styleIds="[1649223588847]"
+                    jcr:created="{Date}2022-05-17T17:11:19.499+03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-05-17T17:37:37.934+03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="They're just getting warmed up"
+                    sling:resourceType="ipp-bikes/components/title"
+                    type="h1">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="8"/>
+                    </cq:responsive>
+                </title>
+                <tabs
+                    cq:styleIds="[1652682579015]"
+                    jcr:created="{Date}2022-05-11T17:50:54.577+03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-05-17T17:08:06.082+03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ipp-bikes/components/tabs"
+                    activeItem="item_1">
+                    <item_1_copy_copy
+                        cq:panelTitle="Search By Cash Price"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Tab 1"
+                        sling:resourceType="ipp-bikes/components/container"
+                        layout="responsiveGrid">
+                        <text_copy_copy
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Postcode:"
+                            sling:resourceType="ipp-bikes/components/form/text"
+                            helpMessage="Enter your Postcode"
+                            name="Postcode:"
+                            required="true"
+                            rows="2"
+                            type="email"
+                            usePlaceholder="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </text_copy_copy>
+                        <options_copy_copy
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Distance:"
+                            sling:resourceType="ipp-bikes/components/form/options"
+                            name="Distance"
+                            source="local"
+                            type="drop-down">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                            <items jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="true"
+                                    text="Any Distance"
+                                    value="Any Distance"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="true"
+                                    text="Within 20 miles"
+                                    value="Within 20 miles"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="true"
+                                    text="Within 40 miles"
+                                    value="Within 40 miles"/>
+                            </items>
+                        </options_copy_copy>
+                        <options_226412125_co
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Model Family"
+                            sling:resourceType="ipp-bikes/components/form/options"
+                            datasourceRT="search"
+                            name="Model Family"
+                            source="local"
+                            type="drop-down">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                            <items jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Category (All)"
+                                    value="Category (All)"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Dyna"
+                                    value="Dyna"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Softail"
+                                    value="Softail"/>
+                            </items>
+                        </options_226412125_co>
+                        <slider
+                            jcr:lastModified="{Date}2022-06-16T15:13:33.348+03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Max price"
+                            sling:resourceType="ipp-bikes/components/slider"
+                            btext="go"
+                            maxValue="75000"
+                            minValue="0"
+                            searchRoot="/content/ipp-bikes/language-masters/en/All_Types/trike_bikes">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="6"/>
+                            </cq:responsive>
+                        </slider>
+                    </item_1_copy_copy>
+                    <item_1_copy
+                        cq:panelTitle="Search By Monthly Budget"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Tab 1"
+                        sling:resourceType="ipp-bikes/components/container"
+                        layout="responsiveGrid">
+                        <text_copy_copy
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Postcode:"
+                            sling:resourceType="ipp-bikes/components/form/text"
+                            helpMessage="Enter your Postcode"
+                            name="Postcode:"
+                            required="true"
+                            rows="2"
+                            type="email"
+                            usePlaceholder="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </text_copy_copy>
+                        <options_copy_copy
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Distance:"
+                            sling:resourceType="ipp-bikes/components/form/options"
+                            name="Distance"
+                            source="local"
+                            type="drop-down">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                            <items jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="true"
+                                    text="Any Distance"
+                                    value="Any Distance"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="true"
+                                    text="Within 20 miles"
+                                    value="Within 20 miles"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="true"
+                                    text="Within 40 miles"
+                                    value="Within 40 miles"/>
+                            </items>
+                        </options_copy_copy>
+                        <options_226412125_co
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Model Family"
+                            sling:resourceType="ipp-bikes/components/form/options"
+                            datasourceRT="search"
+                            name="Model Family"
+                            source="local"
+                            type="drop-down">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                            <items jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Category (All)"
+                                    value="Category (All)"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Dyna"
+                                    value="Dyna"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Softail"
+                                    value="Softail"/>
+                            </items>
+                        </options_226412125_co>
+                        <slider
+                            jcr:lastModified="{Date}2022-05-17T14:47:45.469+03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Max price"
+                            sling:resourceType="ipp-bikes/components/slider"
+                            btext="Search"
+                            maxValue="39999"
+                            minValue="0"
+                            searchRoot="/content/ipp-bikes/language-masters/en/All_Types/trike_bikes">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="6"/>
+                            </cq:responsive>
+                        </slider>
+                    </item_1_copy>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </tabs>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

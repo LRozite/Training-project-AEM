@@ -1,7 +1,7 @@
 //Made by LR. Since this component is not changed by teammates I left my changes in general as is//
 .cmp-teaser {
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding: 0;
     min-height: 40px;
 
@@ -183,7 +183,9 @@
 //Style for teaser with image on left LR//
 .cmp-image--left {
     .cmp-teaser{
-        margin-bottom: 5em;
+        margin-bottom: 3em;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .cmp-image__image {
     width: 600px;
@@ -205,6 +207,7 @@
         bottom: 60%;
         text-transform: uppercase;
         font-size: 28px;
+        color: black;
     }
     .cmp-teaser__description {
         position: absolute;
@@ -213,6 +216,7 @@
         display: inline;
         width: 400px;
         font-weight: 400;
+        color: black;
     }
     .cmp-teaser__action-container {
         position: absolute;
@@ -224,7 +228,9 @@
 //Style for teaser with image on right LR//
 .cmp-image--right {
     .cmp-teaser{
-        margin-bottom: 5em;
+        margin-bottom: 3em;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .cmp-image__image {
     width: 600px;
@@ -246,6 +252,7 @@
         bottom: 60%;
         text-transform: uppercase;
         font-size: 28px;
+        color: black;
     }
     .cmp-teaser__description {
         position: absolute;
@@ -254,6 +261,7 @@
         display: inline;
         width: 400px;
         font-weight: 400;
+        color: black;
     }
     .cmp-teaser__action-container {
         position: absolute;
@@ -270,7 +278,9 @@
         min-width: 25%;
         left: 0%;
         
+        
     }
+    
     .cmp-teaser__title {
         position: relative;
         bottom: 0%;
@@ -279,9 +289,12 @@
         font-size: 18px;
         text-align: left;
         left: 0%;
+        color: white;
+        
+        
     }
     .cmp-teaser__tile-link {
-        color: white;
+        
         text-decoration: none;
     }
     .cmp-teaser__pretitle {
@@ -293,6 +306,8 @@
         max-width: 80%;
         font-weight: 400;
         left: 0%;
+        
+        
     }
     .cmp-teaser__description {
         position: relative;
@@ -304,9 +319,11 @@
         width: fit-content;
         max-width: 80%;
         font-weight: 400;
+        color: black;
+        
     }
     .cmp-teaser__action-container {
-        background-color: none;
+        background-color: white;
         font-size: 16px;
         font-weight: 750;
         text-align: left;
@@ -316,6 +333,7 @@
         bottom: 20%;
         left: 0%;
         padding: 10px;
+       
         }
     
         .cmp-teaser__action-link {
@@ -329,10 +347,12 @@
         }
         .cmp-teaser__action-link:hover{
         padding-right: 25px;
+        
         }
         .cmp-teaser__action-link:hover::after{
         opacity: 1;
         right: 0;
+        
         }
     
         .cmp-teaser__action-link::after{

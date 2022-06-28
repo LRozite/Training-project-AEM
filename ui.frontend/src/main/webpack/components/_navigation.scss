@@ -4,12 +4,13 @@
 
 .cmp-navigation-lr{
 .cmp-navigation {
-  padding: 10px 16px;
+  padding: 20px 16px;
     list-style: none;
     text-align: center;
-    background-color: none;
+    background: white;
     width: 100%;
     position: relative;
+    
 }
 .cmp-navigation__group {
   -ms-flex-align: center;
@@ -17,12 +18,12 @@
 .cmp-navigation__item {
   display: inline;
 	font-size: 18px;
-    line-height: 1rem;
+    line-height: 5px;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
     font-weight: regular;
-    padding: 1pt 10pt;
-    border-right: 0.01rem solid white;
+    padding: 0pt 15pt;
+    border-right: 0.01rem solid gray;
 }
 
 .cmp-navigation__item:last-child {
@@ -34,7 +35,7 @@
   background: #ECECEC;
 }
 .cmp-navigation__item-link {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .cmp-navigation__item-link:hover {

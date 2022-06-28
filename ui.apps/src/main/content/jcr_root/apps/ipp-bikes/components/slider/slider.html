@@ -10,9 +10,9 @@
           autocomplete="off">
         <div class="cmp-slider__container">
 			<span class="cmp-slider__title">${properties.jcr:title}</span>
-            <input class="cmp-slider__input" data-cmp-hook-search="input" type="range" min="${properties.minValue}" max="${properties.maxValue}" value="150" id="slRange">
-            <div class="cmp-slider__track">
-                   <span class="cmp-slider__output" id="valueOutput"></span>
+            <input class="cmp-slider__input" data-cmp-hook-search="input" type="range" min="${properties.minValue}" max="${properties.maxValue}" value="50%" oninput="rangevalue.value=value" id="slRange">
+            <output id="rangevalue" class="cmp-slider__output"></output>
+                   
             <button class="cmp-form-button" data-cmp-hook-search="start" aria-label="${'Start' @ i18n}">
                 <span data-sly-test="${properties.btext}" class="cmp-form-button__text">${properties.btext}</span>
             </button>

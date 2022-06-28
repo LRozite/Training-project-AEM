@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-06-17T13:19:22.767+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/ipp-bikes/settings/wcm/templates/bikes_types"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Bikes_types"
+        sling:resourceType="ipp-bikes/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ipp-bikes/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ipp-bikes/components/container"
+                layout="responsiveGrid"/>
+            <container_1075967254
+                jcr:created="{Date}2022-03-22T09:27:30.091+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-22T09:27:42.126+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ipp-bikes/components/container"/>
+        </root>
+    </jcr:content>
+    <trike_bikes/>
+    <AT_bikes/>
+    <GAT_bikes/>
+    <cruiser_bikes/>
+    <sport_bikes/>
+</jcr:root>

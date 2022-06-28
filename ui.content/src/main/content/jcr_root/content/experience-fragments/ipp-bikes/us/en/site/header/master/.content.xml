@@ -2,16 +2,17 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-05-11T13:41:06.466+03:00"
+        cq:lastModified="{Date}2022-05-23T11:19:19.796+03:00"
         cq:lastModifiedBy="admin"
+        cq:tags="[]"
         cq:template="/conf/ipp-bikes/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Header - IPP Bikes"
+        jcr:title="Header"
         sling:resourceType="ipp-bikes/components/xfpage">
         <root
-            jcr:lastModified="{Date}2022-03-21T11:17:10.685+02:00"
+            jcr:lastModified="{Date}2022-03-18T09:35:17.692+02:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="ipp-bikes/components/container"
@@ -70,7 +71,7 @@
             <container_1348204993
                 jcr:created="{Date}2022-03-18T12:07:21.057+02:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-03-21T11:16:31.124+02:00"
+                jcr:lastModified="{Date}2022-05-23T10:09:09.519+03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="ipp-bikes/components/container"
@@ -680,6 +681,7 @@
                     sling:resourceType="ipp-bikes/components/container"
                     layout="responsiveGrid">
                     <material_button_634189541
+                        cq:styleIds="[1653293004892]"
                         jcr:created="{Date}2022-03-29T15:50:16.125+03:00"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2022-03-29T15:51:22.431+03:00"
@@ -698,6 +700,7 @@
                         </cq:responsive>
                     </material_button_634189541>
                     <material_button
+                        cq:styleIds="[1653293004892]"
                         jcr:created="{Date}2022-03-24T10:28:57.620+02:00"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2022-03-24T11:47:32.590+02:00"
@@ -716,6 +719,7 @@
                         </cq:responsive>
                     </material_button>
                     <material_button_9739
+                        cq:styleIds="[1653293004892]"
                         jcr:created="{Date}2022-03-24T11:25:57.767+02:00"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2022-03-28T15:07:48.888+03:00"

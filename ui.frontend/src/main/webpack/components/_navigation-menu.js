@@ -151,7 +151,8 @@
     //[IK] when the cursor leaves, hide and diactivate all menus
     $(".cmp-navigationmenu").mouseleave(function(){
         //[IK] remove highlights from main menu
-        $(".cmp-navigationmenu__mainlist_item").children(".cmp-navigationmenu__item-link").removeClass("highlighted_main"); 
+        $(".cmp-navigationmenu__mainlist_item").children(".cmp-navigationmenu__item-link")
+        .removeClass("highlighted_main"); 
 
         //[IK] remove highlights from all submenus
         $(".cmp-navigationmenu__item-link").removeClass("highlighted_sub");

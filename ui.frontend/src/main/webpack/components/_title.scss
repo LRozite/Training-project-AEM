@@ -8,6 +8,8 @@
         color: white;
         text-align: left;
         font-size: 18px;
+        margin-left: 0px;
+          
     }
     .cmp-title__text {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -20,6 +22,7 @@
         color: white;
         text-align: left;
         font-size: 18px;
+        margin-left: 0px;
     }
     .cmp-title__text{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -28,5 +31,16 @@
             content: '\2014';
             color: #ff6600;
         }
+    }
+}
+
+.cmp-title--black{
+    .cmp-title {
+        color: black;
+    }
+}
+.cmp-title--orange{
+    .cmp-title {
+        color: #ff6600;
     }
 }

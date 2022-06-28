@@ -2,8 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-05-16T11:44:56.142+03:00"
-        cq:lastModifiedBy="admin"
+        cq:lastModified="{Date}2022-06-17T13:21:31.237+03:00"
+        cq:lastModifiedBy="reference-adjustment-service"
         cq:tags="[]"
         cq:template="/conf/ipp-bikes/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -12,7 +12,8 @@
         jcr:title="ContainerSeperato"
         sling:resourceType="ipp-bikes/components/xfpage">
         <root
-            jcr:lastModified="{Date}2022-04-11T13:05:24.236+03:00"
+            cq:styleIds="[1655454111090]"
+            jcr:lastModified="{Date}2022-06-17T11:20:43.286+03:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="ipp-bikes/components/container"
@@ -27,6 +28,7 @@
                 sling:resourceType="ipp-bikes/components/container"
                 layout="responsiveGrid">
                 <title
+                    cq:styleIds="[1652773233549]"
                     jcr:created="{Date}2022-04-05T10:55:23.748+03:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2022-04-05T11:00:00.125+03:00"
@@ -51,7 +53,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="View calendar"
                     sling:resourceType="ipp-bikes/components/button"
-                    link="/content/ipp-bikes/language-masters/en/trike_bikes"
+                    link="/content/ipp-bikes/language-masters/en/All_Types/trike_bikes"
                     linkTarget="_self">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default

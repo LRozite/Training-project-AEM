@@ -5,7 +5,9 @@
     margin-left: 15px;
     border: none;
 }
-.cmp-form-options__legend {}
+.cmp-form-options__legend {
+    
+}
 .cmp-form-options__field-label {}
 .cmp-form-options__field {
     width: 200px;
@@ -16,10 +18,14 @@
 .cmp-form-options__field--checkbox {}
 .cmp-form-options__field--radio {}
 .cmp-form-options__field-description {}
-.cmp-form-options__label {}
+.cmp-form-options__label {
+    color: gray;
+}
 .cmp-form-options__drop-down-field {
     border: none;
     
 }
 .cmp-form-options__multi-drop-down-field {}
-.cmp-form-options__help-message {}
+.cmp-form-options__help-message {
+    
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-06-17T11:47:13.073+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/ipp-bikes/settings/wcm/templates/bikes_types"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sport"
+        jcr:uuid="e15df3d5-7c76-47fa-b361-3c6e202d0f8a"
+        sling:resourceType="ipp-bikes/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ipp-bikes/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:lastModified="{Date}2022-06-10T14:38:03.477+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ipp-bikes/components/container"
+                layout="responsiveGrid">
+                <experiencefragment
+                    cq:styleIds="[1655455507852]"
+                    jcr:created="{Date}2022-06-15T08:39:31.575+03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-15T08:39:54.781+03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ipp-bikes/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/ipp-bikes/us/en/bike_price_search/bike_price_search"/>
+            </container>
+            <container_1075967254
+                jcr:created="{Date}2022-03-22T09:27:30.091+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-22T09:27:42.126+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ipp-bikes/components/container"/>
+        </root>
+    </jcr:content>
+</jcr:root>

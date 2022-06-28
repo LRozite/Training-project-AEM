@@ -1,107 +1,103 @@
 //Custom range slider component made by LR//
 .cmp-slider {
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    background-color: none;
-    
-}
-.cmp-slider__container{
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 100%;
+  background-color: none;
   
-    .cmp-slider__title {
-    color: white;
-    position: absolute;
-    top: 0px;
-    
-    }
-    .cmp-slider__input {
-            width: 70%;
-            -webkit-appearance: none;
-            background: transparent;
-            position: absolute;
-            top: 80%;
-            left: 0px;
-    }
+}
+.cmp-slider__container {
+  color:#fff;
+  margin-top: 0px;
+}
+.cmp-slider__output {
+  display: inline-block;
+  align-content: right;
+  width: 40px;
+  text-align: right;
+  position: relative;
+  bottom: 30px;
+  left: -7.5%;
+  color: #fff;
+  font-family: 'franklin-gothic-atf, sans-serif';
+  font-weight: 600;
+  font-size: 0.9rem;
+ 
+}
 
-   .cmp-slider__input::-webkit-slider-runnable-track {
-            border-radius: 4px;
-            height: 7px;
-            background: #fa6600;
-            box-shadow: inset 0 0 3px rgba(51, 51, 51, 0.45);
-        
-    }
-   
-   
-    
-    .cmp-slider__input::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        appearance: none;
-        margin-top: -16px;
-        width: 40px;
-        height: 40px;
-        border: 1px solid #000;
-        border-radius: 25px;
-        background: white;
-        background-image: url('/content/dam/ipp-bikes/Arrows-back-forward.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 15px 10px;
-        box-shadow: inset 0 0 1px #fff, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
-        cursor: pointer; 
-        }
+  .cmp-slider__title {
+  color: white;
+  position:absolute;
+  margin-top: -10px;
+  font-family: 'franklin-gothic-atf, sans-serif';
+  font-weight: 500;
+  font-size: 0.9rem;
+  
+  }
+  
+  .cmp-slider__input[type="range"] {
+          width: 60%;
+          -webkit-appearance: none;
+          background: rgb(255, 254, 254);
+          border-radius: 4px;
+          height: 7px;
+          box-shadow: inset 0 0 3px rgba(51, 51, 51, 0.45);
+          background-image: linear-gradient(#F60, #F60);
+          background-size: 50% 100%;
+          background-repeat: no-repeat;
+  }
 
-    
-
-    .cmp-slider__input::-moz-range-thumb{
-            width: 40px;
-            height: 40px;
-            border: 1px solid #000;
-            border-radius: 25px;
-            background: white;
-            cursor: pointer;
-            
-    
-    }
-   
-    .cmp-slider__output {
-    display: inline-block;
-    align-content: right;
+ .cmp-slider__input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  }
+ 
+ 
+  
+  .cmp-slider__input::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #000;
+      border-radius: 25px;
+      background: white;
+      background-image: url('/content/dam/ipp-bikes/Arrows-back-forward.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 15px 10px;
+      box-shadow: inset 0 0 1px #fff, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
+      cursor: pointer; 
+      transition: background .3s ease-in-out;
+  }
+      
+  .cmp-slider__input::-moz-range-thumb{
+    margin-top: -12px;
     width: 40px;
-    text-align: right;
-    position: relative;
-    bottom: 22px;
-    left: 60%;
-    color: #fff;
-    font-family: 'franklin-gothic-atf, sans-serif';
-    font-weight: 600;
-    font-size: 0.9rem;
-    
-    
-}
-}
-.cmp-slider__form{}
-.cmp-slider__container{
-  
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    background: white;
+    background-image: url('/content/dam/ipp-bikes/Arrows-back-forward.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px 10px;
+    box-shadow: inset 0 0 1px #fff, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
+    cursor: pointer; 
+    transition: background .3s ease-in-out;  
+  }
 
-}
-.cmp-form-button {
-    position: relative;
-    left: 70%;
+
+  .cmp-form-button {
+    left: 75%;
     top: 50%;
     max-width: 20%;
+    margin-left: 20px;
    color: black;
    text-transform: uppercase;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-weight: 600;
    font-size: 0.8rem;
 }
-    
-
-
-
-
-
-
-
-
-
